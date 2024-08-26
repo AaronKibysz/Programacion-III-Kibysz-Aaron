@@ -1,37 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo1</title>
-
 </head>
+
 <body>
-    <h1>4.1 Estructura Basica del Documento HTML</h1>
-    <h5>Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo</h5>
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Documentación del Proyecto</h1>
+    </header>
 
-    <h1>4.2 Encabezados y Propiedades del texto</h1>
-    <h1 style="color: brown;">Texto en h1 color marron</h1>
-    <h2 style="background-color: blueviolet;">Texto en h2 fondo violeta</h2>
-    <h3 style="padding: 50px;">Texto en h3 con padding de 50 px</h3>
-    <h4>Texto en h4</h4>
-    <h5>Texto en h5</h5>
-    <h6>Texto en h6</h6>
-    <i>Texto en cursiva</i>
-    <b>Texto en negrita</b>
-    <sub>Texto subrayado</sub>
-    <del>Texto tachado</del>
+    <!-- Navegación principal -->
+    <nav>
+        <ul>
+            <li><a href="#primerEnlace">Estructura Básica</a></li>
+            <li><a href="#segundoEnlace">Divisiones y Agrupación</a></li>
+            <li><a href="#multimedia">Elementos Multimedia</a></li>
+            <li><a href="#tablas">Tablas</a></li>
+            <li><a href="#formularios">Formularios</a></li>
+        </ul>
+    </nav>
 
-    <h1>4.3 Divisiones y Agrupacion de Contenido</h1>
-    <div>
-        <h2>Seccion 1</h2>
-        <h4>Contenido de la primera seccion agrupada en un div</h4>
-    </div>
-    <div>
-        <h2>Seccion 2</h2>
-        <h4>Contenido de la segunda seccion agrupada en un div</h4>
-    </div>
+    <!-- Sección sobre la estructura básica del documento -->
+    <section>
+        <h2 id="primerEnlace">4.1 Estructura Básica del Documento HTML</h2>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+    </section>
 
-    <h1>4.4 Enlaces y Listas</h1>
+    <!-- Sección sobre encabezados y propiedades del texto -->
+    <section>
+        <h2>4.2 Encabezados y Propiedades del Texto</h2>
+        <article>
+            <h1 style="color: brown;">Texto en h1 color marrón</h1>
+            <h2 style="background-color: blueviolet;">Texto en h2 fondo violeta</h2>
+            <h3 style="padding: 50px;">Texto en h3 con padding de 50 px</h3>
+            <h4>Texto en h4</h4>
+            <h5>Texto en h5</h5>
+            <h6>Texto en h6</h6>
+            <p><i>Texto en cursiva</i></p>
+            <p><b>Texto en negrita</b></p>
+            <p><sub>Texto subrayado</sub></p>
+            <p><del>Texto tachado</del></p>
+        </article>
+    </section>
+
+    <!-- Sección sobre divisiones y agrupación de contenido -->
+    <section id="segundoEnlace">
+        <h2>4.3 Divisiones y Agrupación de Contenido</h2>
+        <article>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </article>
+        <article>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </article>
+    </section>
+
+    <!-- Sección sobre enlaces y listas -->
+    <section>
+        <h2>4.4 Enlaces y Listas</h2>
+        <article>
+            <h3>Link a otra Web</h3>
+            <p><a href="https://www.google.com/" target="_blank">Clickea acá para acceder a otro Sitio Web</a></p>
+        </article>
+        <article>
+            <h3>Enlaces Internos</h3>
+            <p><a href="#primerEnlace">Enlace Interno 1</a></p>
+            <p><a href="#segundoEnlace">Enlace Interno 2</a></p>
+        </article>
+        <article>
+            <h3>Lista Desordenada</h3>
+            <ul>
+                <li>Elemento desordenado 1</li>
+                <li>Elemento desordenado 2</li>
+                <li>Elemento desordenado 3</li>
+                <li>Elemento desordenado 4</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Elemento ordenado 1</li>
+                <li>Elemento ordenado 2</li>
+                <li>Elemento ordenado 3</li>
+                <li>Elemento ordenado 4</li>
+            </ol>
+        </article>
+    </section>
+
+    <!-- Sección sobre elementos multimedia -->
+    <section id="multimedia">
+        <h2>4.5 Elementos Multimedia</h2>
+        <article>
+            <img src="images/1b25c662-e1f3-4445-b811-5aeb6c45c34d.webp" alt="Imagen de pirámides egipcias generada por IA" height="240" width="320">
+        </article>
+        <article>
+            <video src="videos/video1.mp4" height="240" width="320" controls></video>
+        </article>
+        <article>
+            <audio src="audio/squash-amen-break-short_76bpm_A#_minor.mp3" controls></audio>
+        </article>
+    </section>
+
+    <!-- Sección sobre tablas -->
+    <section id="tablas">
+        <h2>4.6 Tablas</h2>
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección sobre formularios -->
+    <section id="formularios">
+        <h2>4.7 Formularios</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" placeholder="Ingrese el Nombre">
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Ingrese Email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Proyecto HTML Semántico</p>
+    </footer>
 </body>
+
 </html>
